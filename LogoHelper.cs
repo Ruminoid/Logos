@@ -10,8 +10,8 @@ namespace Ruminoid.Common.Helpers
     public static class LogoHelper
     {
         public static string GetLogoPath(string productId) =>
-            File.Exists(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, $"{productId}.png"))
-                ? Path.Combine(AppDomain.CurrentDomain.BaseDirectory, $"{productId}.png")
-                : Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Ruminoid.png");
+            File.Exists(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, $"Logos\\{productId}.png"))
+                ? Path.Combine(AppDomain.CurrentDomain.BaseDirectory, $"Logos\\{productId}.png")
+                : Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Logos\\Ruminoid.png");
     }
 }
