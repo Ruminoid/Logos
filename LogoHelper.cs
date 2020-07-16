@@ -12,6 +12,6 @@ namespace Ruminoid.Common.Helpers
         public static string GetLogoPath(string productId) =>
             File.Exists(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, $"{productId}.png"))
                 ? Path.Combine(AppDomain.CurrentDomain.BaseDirectory, $"{productId}.png")
-                : Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "HeavyWork.png");
+                : Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Ruminoid.png");
     }
 }
