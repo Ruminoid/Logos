@@ -60,6 +60,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logos\HeavyWork.png" />
+    <Content Include="Logos\LIVE.png" />
     <Content Include="Logos\Ruminoid.png" />
   </ItemGroup>
   <ItemGroup>
