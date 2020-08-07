@@ -59,9 +59,15 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Logos\HeavyWork.png" />
-    <Content Include="Logos\LIVE.png" />
-    <Content Include="Logos\Ruminoid.png" />
+    <None Include="Logos\HeavyWork.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Logos\LIVE.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Logos\Ruminoid.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <Reference Include="System" />
